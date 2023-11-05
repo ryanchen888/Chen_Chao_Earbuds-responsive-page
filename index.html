@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>VOCO Earbuds</title>
+</head>
+<body>
+    <header id="main-nav">
+        <div class="box_nav">
+            <div class="grid-con">
+                <img id="logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-2 l-col-start-2 l-col-end-3" src="images/logo.svg" alt="">
+                <ul id="nav" class="col-start-2 col-end-5 m-col-start-4 m-col-end-10 l-col-start-6 l-col-end-12">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">VIDEO</a></li>
+                    <li><a href="#">HOT-SPOTS</a></li>
+                    <li><a href="#">X-RAY</a></li>
+                    <li><a href="#">PICS</a></li>
+                </ul>    
+            </div>
+        </div>
+    </header>
+
+    <div class="box_video">
+        <div id="video">Video</div>
+    </div>
+
+    <div class="box_hot-spots">
+        <div id="HP-box" class="grid-con">
+            <div id="hotSpots-pic" class="col-span m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-9">Hotspots</div>
+            <div id="text-box" class="col-span m-col-start-7 m-col-end-10 l-col-start-9 l-col-end-13">Text</div>
+        </div>
+    </div>
+    
+    <div class="box_x-ray">
+        <div class="grid-con">
+            <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-4 l-col-start-3 l-col-end-11">X-RAY</div>
+        </div>
+    </div>
+
+    <div class="box_pic">
+        <div id="pic1">
+            <img class="lightbox-trigger" src="images/1.jpg" alt="">
+        </div>
+        <div id="pic2">
+            <img class="lightbox-trigger" src="images/2.jpg" alt="">
+        </div>
+        <div id="pic3">
+            <img class="lightbox-trigger" src="images/3.jpg" alt="">
+        </div>
+        <div id="pic4">
+            <img class="lightbox-trigger" src="images/4.jpg" alt="">
+        </div>
+        <div id="pic5">
+            <img class="lightbox-trigger" src="images/5.jpg" alt="">
+        </div>
+        <div id="pic6">
+            <img class="lightbox-trigger" src="images/6.jpg" alt="">
+        </div>
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" id="closeLightbox">&times;</span>
+        <img class="lightbox-content" src="images/1.jpg" alt="Large Image 1">
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
